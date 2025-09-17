@@ -68,7 +68,7 @@ git push origin feature/<name>-hello-route
   1. Open Jenkins UI → Create a new Pipeline job.
   2. Configure Pipeline Script from SCM:
       - SCM: Git
-      - Repository URL: https://github.com/<your-username>/<repo-name>.git
+      - Repository URL: https://github.com/veershah-sh/devops-assignment.git
       - Branch: main
       - Script Path: Jenkinsfile
       - Sample Jenkinsfile:
