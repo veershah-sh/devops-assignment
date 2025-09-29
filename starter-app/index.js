@@ -6,4 +6,9 @@ app.get('/', (req, res) => {
     res.send('🚀 Hello from Node.js app deployed via Jenkins + Docker!');
 });
 
+app.get('/hello', (req, res) => {
+  res.send('Hello from Smitkumar !');
+});
+
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

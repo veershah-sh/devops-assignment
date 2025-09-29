@@ -1,0 +1,28 @@
+{
+  "name": "devops-assignment",
+  "version": "1.0.0",
+  "description": "This assignment will give you **hands-on experience with real-world DevOps tools** — Git, GitHub, Docker, and Jenkins — by creating a complete CI/CD pipeline for a simple Node.js application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node starter-app/index.js",
+    "dev": "nodemon starter-app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomjerry4061/devops-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomjerry4061/devops-assignment/issues"
+  },
+  "homepage": "https://github.com/tomjerry4061/devops-assignment#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
