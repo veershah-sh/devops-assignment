@@ -1,0 +1,21 @@
+{
+  "name": "devops-assignment",
+  "version": "1.0.0",
+  "description": "This assignment will give you **hands-on experience with real-world DevOps tools** — Git, GitHub, Docker, and Jenkins — by creating a complete CI/CD pipeline for a simple Node.js application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Honey-gohil/devops-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Honey-gohil/devops-assignment/issues"
+  },
+  "homepage": "https://github.com/Honey-gohil/devops-assignment#readme"
+}
