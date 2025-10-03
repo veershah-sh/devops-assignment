@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/monark04/devops-assignment'
+                git branch: 'feature/monark-hello-route', url: 'https://github.com/monark04/devops-assignment'
             }
         }
 
